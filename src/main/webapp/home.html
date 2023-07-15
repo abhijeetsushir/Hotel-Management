@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New Bookings</title>
+<style type="text/css">
+			body{
+				background: url("homp.jpg");
+				margin:0px;
+				background-size: cover;
+			}
+			.div1{
+				border: 4px outset;
+				border-color: black;
+				border-radius: 10px;
+				width: 35%;
+				margin-top: 5%;
+				margin-left: auto;
+				margin-right: auto;
+				
+				padding: 2%;
+				background-image: url("form123.jpg");
+				background-size: cover;
+			}
+			.t1{
+				font-family: sans-serif;
+				font-size: 25px;
+				color: #ffff;
+				padding: 10px;
+				text-align: center;
+			}
+			.t2{
+				font-family: Sans-serif;
+				font-size: 15px;
+				padding: 5px;
+			}
+			#submit{
+				margin-top: 10px;
+				padding: 10px;
+				font-family: Sans-serif;
+				font-size: 20px;
+				color: #fff;
+				background: black;
+				border-radius: 0px;
+			}
+		</style>
+</head>
+<body>
+<div class="div1">
+			<h1 style="text-align: center;font-family: cursive; font-style: italic; color: grey">New Booking</h1>
+			<form action="booking" method="post">
+				<table>
+					<tr>
+						<td class="t1">Name</td>
+						<td><input type="text" name="name" class="t2" required></td>
+					</tr>
+					<tr>
+						<td class="t1">Contact</td>
+						<td><input type="number" name="contact" class="t2" required></td>
+					</tr>
+					
+					<tr>
+						<td class="t1">Rooms</td>
+						<td><input type="text" name="rooms" class="t2" required></td>
+					</tr>
+					<tr>
+						<td class="t1">Check IN </td>
+						<td><input type="date" name="checkIN" class="t2" required></td>
+					</tr>
+					<tr>
+						<td class="t1">Check OUT </td>
+						<td><input type="date" name="checkOUT" class="t2" required></td>
+					</tr>
+					<tr>
+						<td class="t1">Adults</td>
+                        
+						<td><input type="text" name="adults" class="t2" required></td>
+					</tr>
+					<tr>
+						<td class="t1">Children</td>
+                        
+						<td><input type="text" name="children" class="t2" required></td>
+					</tr>
+					<tr >
+						
+						<td><input type="submit" value="Continue" id="submit"></td>
+					</tr>
+				</table>
+			</form>			
+		</div>
+</body>
+</html>

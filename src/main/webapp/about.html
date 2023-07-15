@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Hotel 5 Senses offers 108 rooms and suites  decorated with comfort and
+   elegance in mind. Each room represents an ideal choice for discerning business 
+   and leisure travelers. Premium quality beds and amenities like 24 hours In-room
+    dining, free wireless internet, iron and iron boards and 43 televisions make 
+    both short term and long term stay hassle-free. Individual air conditioning
+     control keeps you cozy and comfortable, while you make coffee or tea in your 
+     room whenever you want. Non-smoking rooms and suites, baby crib or an extra
+      bed are available upon request.</p>
+</div>
+
+<h2 style="text-align:center">Welcome to Hotel 5 Senses</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="hotelimage1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Dinning</h2>
+        <p class="title">Blue Salt & Coffee</p>
+        <p>Dine in at 5 Senses Indore  and experience a rendezvous of the 
+        senses as you  celebrate  the finest flavors. From relaxed to lively,
+         classic to contemporary, witness our enchanting restaurant, cafe and lounge</p>
+        <p><button class="button">Read More</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="last.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Ideal Location</h2>
+        <p class="title">Indore</p>
+        <p>5 Senses Indore presents an enticing, modern place for business 
+        travellers in Indore to enjoy themselves, conveniently close to the
+         city centre as well as the vibrant business districts of Indore.</p>
+        <p><button class="button">Read More</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="okay.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Stylish Rooms</h2>
+        <p class="title"> Rooms & Suites</p>
+        <p>At Hotel 5 Senses Indore, our expansive 100 hotel rooms and 8 suites feature, 
+        sophisticated furnishings, as well amenities like free high-speed wireless internet,
+         iron and iron boards and 43” televisions.  </p>
+        <p><button class="button">Read More</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

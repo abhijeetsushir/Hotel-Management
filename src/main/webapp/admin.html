@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LOGIN</title>
+		<style type="text/css">
+			body{
+				background: url("hotelimage1.jpg");
+				margin:0px;
+			}
+			.div1{
+				border: 2px outset;
+				border-color: black;
+				border-radius: 7px;
+				width: 34%;
+				margin-top: 5%;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 2%;
+				background-image: url("form123.jpg");
+			}
+			.t1{
+				font-family: sans-serif;
+				font-size: 25px;
+				color: white;
+				padding: 10px;
+				text-align: center;
+			}
+			.t2{
+				font-family: sans-serif;
+				font-size: 15px;
+				padding: 5px;
+			}
+			#submit{
+				margin-top: 10px;
+				padding: 5px;
+				font-family: sans-serif;
+				font-size: 20px;
+				color: #fff;
+				background: black;
+				border-radius: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<h1 style="text-align: center;font-family: cursive; font-style:italic; color: grey">Admin Login</h1>
+			<form action="admin" method="post">
+				<table>				
+					<tr>
+						<td class="t1">ID</td>
+						<td><input type="id" name="id" class="t2" required></td>
+					</tr>
+					<tr>
+						<td class="t1">Password</td>
+						<td><input type="password" name="password" class="t2" required></td>
+					</tr>
+					<tr >
+						
+						<td><input type="submit" value="Login" id="submit"></td>
+					</tr>
+				</table>
+			</form>			
+		</div>
+	</body>
+</html>
