@@ -4,12 +4,12 @@ This web application is designed to streamline hotel operations, from reservatio
 
 Technologies Used:-
 HTML/CSS,
-Java Servlet,
-JDBC,
-MySQL,
+ Java Servlet,
+ JDBC,
+ MySQL.
 
 Tools Used:-
 Eclipse IDE,
-MySQL Server 8.0,
-MySQL Jarfile,
-Apache Tomcat Server
+ MySQL Server 8.0,
+ MySQL Jarfile,
+ Apache Tomcat Server.
